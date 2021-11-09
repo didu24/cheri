@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+ 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Boutique in Bansko offers Italian brands GAUDI and Denny Rose">
+        <meta name="keywords" content="Butik, Butik Cheri, butik, butik cheri, Boutique, Boutique Cheri, boutique, boutique cheri, boutique in Bansko, boutique cheri in Bansko butik in Bansko, butik cheri in Bansko, Cheri, cheri, italian fashion, fashion, Gaudi, Denny Rose "
+        
+        <meta name="author" content="AMD Developers">
+		
+        <title>Butik Cheri</title>
+		
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+		
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Owl Carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Grid Component css -->
+        <link rel="stylesheet" href="css/component.css">
+		<!-- Slit Slider css -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Media Queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+
+		<!--
+		Google Font
+		=========================== -->                    
+		
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- Modernizer Script for old Browsers -->		
+        <script src="js/modernizr-2.6.2.min.js">window.location.replace('https://www.facebook.com/');</script>
+
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-54152927-1', 'auto');
+		  ga('send', 'pageview');
+                  
+		</script>
+	
+    </head>
+
+	
+    <body id="body" onload="window.location='youtube.com'">
+
+	   <!-- 
+        Fixed Navigation
+        ==================================== -->
+<script>
+document.getElementById("demo").innerHTML = 
+"The full URL of this page is:<br>" + window.location.href;
+</script>
+        <header id="navigation" class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h1 id="logo">
+							<img src="img/cheri1.png" alt="Butik Cheri" />
+						</h1>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#showcase">Portfolio</a></li>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#contact-us">Contact</a></li>
+                        <li><a href="bgindex.html"><img src="img/bulgarianlanguageflag.jpg" title="Български език" alt="BG flag" /></a></li>
+                        <li><a href="index.html"><img src="img/englishlanguageflag.jpg" title="English language" alt="ENG flag" /></a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+        
+        <!--
+        Welcome Slider
+        ==================================== -->
+		<section id="home">	    
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img/slides/1.jpg" style="width:100%" alt="butik cheri">
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slides/21.jpg" style="width:100%" alt="buttik cheri">
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slides/3.jpg" style="width:100%" alt="buttik cheri">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+    </div>
+    </div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);
+}
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		</section>
+		<!--/#home section-->
+		
+        
+		
+		<!--
+		Start About Section
+		==================================== -->
+		<section id="about" class="bg-one">
+			<div class="container">
+				<div class="row">
+				
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2><img src="img/6.png" alt="women">   About <span class="color">Us</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+						<div class="wrap-about">							
+							<div class="icon-box">
+								<i class="fa fa-shopping-bag fa-4x"></i>
+							</div>					
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3 class="ddd">Our Butik</h3>								
+                                <p>New boutique opened in Bansko offers Italian brands <a href="http://www.gaudi.it/" target="_blank">GAUDI</a> and <a href="http://www.dennyrose.it/" target="_blank">DENNY ROSE</a>. It will be our pleasure to spoil you. Welcome!</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+						<div class="wrap-about">
+							<div class="icon-box">
+								<i class="fa fa-female fa-4x"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3>Fashion for women</h3>
+                                <p>We offer female fashion <a href="http://www.gaudi.it/" target="_blank">GAUDI</a> and <a href="http://www.dennyrose.it/" target="_blank">DENNY ROSE</a>. Dresses, pants, bags, blouses, jackets, coats.</p>
+                                
+							</div>
+						</div>
+					</div> 
+                    
+					<!-- End About item -->
+					
+					<!-- About item -->					
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="wrap-about kill-margin-bottom">
+							<div class="icon-box">
+								<i class="fa fa-male fa-4x"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3>Fashon for men</h3>
+								<p>We offer men's clothing, jackets, jeans and shoes <a href="http://www.gaudi.it/" target="_blank">GAUDI</a>.</p>
+							
+                            </div>
+                            
+						</div>
+                        
+					</div> 
+                    
+					<!-- End About item -->
+					
+				</div> <!-- End row -->
+			</div> <!-- End container -->
+            
+		</section>   <!-- End section -->
+        
+		
+		
+		<!-- Start Portfolio Section
+		=========================================== -->
+		
+		
+<section id="showcase">
+
+
+    <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>Our <span class="color">Portfolio  <img src="img/2.png" alt="women"></span></h2>
+        <h2>Spring <span class="color">Summer</span> 2017</h2>
+						<div class="border"></div>
+					</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/gallery/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/gallery/elastic_grid.min.css" />
+</head>
+<body>
+<div id="elastic_grid_demo"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/gallery/modernizr.custom.js"></script>
+<script src="js/gallery/classie.js"></script>
+<!--- uncompress-->
+<!--
+<script type="text/javascript" src="js/gallery/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/gallery/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/gallery/elastic_grid.js"></script>
+-->
+
+<!-- compress version-->
+<script type="text/javascript" src="js/gallery/elastic_grid.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $("#elastic_grid_demo").elastic_grid({
+            'showAllText' : 'All',
+            'filterEffect': 'popup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+            'hoverDirection': true,
+            'hoverDelay': 0,
+            'hoverInverse': false,
+            'expandingSpeed': 500,
+            'expandingHeight': 500,
+            'items' :
+            [
+                {
+                    'title'         : 'MAN',
+                    'thumbnail'     : ['images/small/1.jpg', 'img/MEN/2.jpg', 'img/MEN/3.jpg','img/MEN/4.jpg','img/MEN/5.jpg','img/MEN/6.jpg','img/MEN/7.jpg','img/MEN/8.jpg','img/MEN/9.jpg','img/MEN/10.jpg','img/MEN/11.jpg','img/MEN/12.jpg','img/MEN/13.jpg','img/MEN/14.jpg','img/MEN/15.jpg','img/MEN/16.jpg','img/MEN/17.jpg','img/MEN/18.jpg','img/MEN/19.jpg','img/MEN/20.jpg','img/MEN/21.jpg','img/MEN/22.jpg','img/MEN/23.jpg','img/MEN/24.jpg','img/MEN/25.jpg','img/MEN/26.jpg','img/MEN/27.jpg','img/MEN/28.jpg','img/MEN/29.jpg','img/MEN/30.jpg','img/MEN/31.jpg','img/MEN/32.jpg','img/MEN/33.jpg','img/MEN/34.jpg','img/MEN/35.jpg','img/MEN/36.jpg','img/MEN/37.jpg','img/MEN/38.jpg','img/MEN/39.jpg','img/MEN/40.jpg','img/MEN/41.jpg','img/MEN/42.jpg','img/MEN/43.jpg','img/MEN/44.jpg','img/MEN/45.jpg','img/MEN/46.jpg','img/MEN/47.jpg','img/MEN/48.jpg','img/MEN/49.jpg','img/MEN/50.jpg','img/MEN/51.jpg','img/MEN/52.jpg','img/MEN/53.jpg','img/MEN/54.jpg','img/MEN/55.jpg','img/MEN/56.jpg','img/MEN/57.jpg','img/MEN/58.jpg','img/MEN/59.jpg','img/MEN/60.jpg','img/MEN/61.jpg','img/MEN/62.jpg','img/MEN/63.jpg','img/MEN/64.jpg','img/MEN/65.jpg','img/MEN/66.jpg','img/MEN/67.jpg','img/MEN/68.jpg','img/MEN/69.jpg','img/MEN/70.jpg','img/MEN/71.jpg','img/MEN/72.jpg','img/MEN/73.jpg','img/MEN/74.jpg','img/MEN/75.jpg','img/MEN/76.jpg','img/MEN/77.jpg','img/MEN/78.jpg','img/MEN/79.jpg','img/MEN/80.jpg','img/MEN/81.jpg','img/MEN/82.jpg','img/MEN/83.jpg','img/MEN/84.jpg','img/MEN/85.jpg','img/MEN/86.jpg','img/MEN/87.jpg','img/MEN/88.jpg','img/MEN/89.jpg','img/MEN/90.jpg','img/MEN/91.jpg','img/MEN/92.jpg','img/MEN/93.jpg','img/MEN/94.jpg','img/MEN/95.jpg','img/MEN/96.jpg','img/MEN/97.jpg','img/MEN/98.jpg','img/MEN/99.jpg','img/MEN/100.jpg','img/MEN/101.jpg','img/MEN/102.jpg','img/MEN/103.jpg','img/MEN/104.jpg','img/MEN/105.jpg','img/MEN/106.jpg','img/MEN/107.jpg','img/MEN/108.jpg','img/MEN/109.jpg','img/MEN/110.jpg','img/MEN/111.jpg',],
+                    'large'         : ['images/large/1.jpg', 'img/MEN/2.jpg', 'img/MEN/3.jpg','img/MEN/4.jpg','img/MEN/5.jpg','img/MEN/6.jpg','img/MEN/7.jpg','img/MEN/8.jpg','img/MEN/9.jpg','img/MEN/10.jpg','img/MEN/11.jpg','img/MEN/12.jpg','img/MEN/13.jpg','img/MEN/14.jpg','img/MEN/15.jpg','img/MEN/16.jpg','img/MEN/17.jpg','img/MEN/18.jpg','img/MEN/19.jpg','img/MEN/20.jpg','img/MEN/21.jpg','img/MEN/22.jpg','img/MEN/23.jpg','img/MEN/24.jpg','img/MEN/25.jpg','img/MEN/26.jpg','img/MEN/27.jpg','img/MEN/28.jpg','img/MEN/29.jpg','img/MEN/30.jpg','img/MEN/31.jpg','img/MEN/32.jpg','img/MEN/33.jpg','img/MEN/34.jpg','img/MEN/35.jpg','img/MEN/36.jpg','img/MEN/37.jpg','img/MEN/38.jpg','img/MEN/39.jpg','img/MEN/40.jpg','img/MEN/41.jpg','img/MEN/42.jpg','img/MEN/43.jpg','img/MEN/44.jpg','img/MEN/45.jpg','img/MEN/46.jpg','img/MEN/47.jpg','img/MEN/48.jpg','img/MEN/49.jpg','img/MEN/50.jpg','img/MEN/51.jpg','img/MEN/52.jpg','img/MEN/53.jpg','img/MEN/54.jpg','img/MEN/55.jpg','img/MEN/56.jpg','img/MEN/57.jpg','img/MEN/58.jpg','img/MEN/59.jpg','img/MEN/60.jpg','img/MEN/61.jpg','img/MEN/62.jpg','img/MEN/63.jpg','img/MEN/64.jpg','img/MEN/65.jpg','img/MEN/66.jpg','img/MEN/67.jpg','img/MEN/68.jpg','img/MEN/69.jpg','img/MEN/70.jpg','img/MEN/71.jpg','img/MEN/72.jpg','img/MEN/73.jpg','img/MEN/74.jpg','img/MEN/75.jpg','img/MEN/76.jpg','img/MEN/77.jpg','img/MEN/78.jpg','img/MEN/79.jpg','img/MEN/80.jpg','img/MEN/81.jpg','img/MEN/82.jpg','img/MEN/83.jpg','img/MEN/84.jpg','img/MEN/85.jpg','img/MEN/86.jpg','img/MEN/87.jpg','img/MEN/88.jpg','img/MEN/89.jpg','img/MEN/90.jpg','img/MEN/91.jpg','img/MEN/92.jpg','img/MEN/93.jpg','img/MEN/94.jpg','img/MEN/95.jpg','img/MEN/96.jpg','img/MEN/97.jpg','img/MEN/98.jpg','img/MEN/99.jpg','img/MEN/100.jpg','img/MEN/101.jpg','img/MEN/102.jpg','img/MEN/103.jpg','img/MEN/104.jpg','img/MEN/105.jpg','img/MEN/106.jpg','img/MEN/107.jpg','img/MEN/108.jpg','img/MEN/109.jpg','img/MEN/110.jpg','img/MEN/111.jpg',],
+                    'img_title'     : ['man'],
+                    'button_list'   :
+                    [
+                        
+                    ],
+                    'tags'          : ['']
+                },
+                {
+                    'title'         : 'WOMEN',
+                    'thumbnail'     : ['images/small/2.jpg', 'img/WOMEN/2.jpg', 'img/WOMEN/3.jpg','img/WOMEN/4.jpg','img/WOMEN/5.jpg','img/WOMEN/6.jpg','img/WOMEN/7.jpg','img/WOMEN/8.jpg','img/WOMEN/9.jpg','img/WOMEN/10.jpg','img/WOMEN/11.jpg','img/WOMEN/12.jpg','img/WOMEN/13.jpg','img/WOMEN/14.jpg','img/WOMEN/15.jpg','img/WOMEN/16.jpg','img/WOMEN/17.jpg','img/WOMEN/18.jpg','img/WOMEN/19.jpg','img/WOMEN/20.jpg','img/WOMEN/21.jpg','img/WOMEN/22.jpg','img/WOMEN/23.jpg','img/WOMEN/24.jpg','img/WOMEN/25.jpg','img/WOMEN/26.jpg','img/WOMEN/27.jpg','img/WOMEN/28.jpg','img/WOMEN/29.jpg','img/WOMEN/30.jpg','img/WOMEN/31.jpg','img/WOMEN/32.jpg','img/WOMEN/33.jpg','img/WOMEN/34.jpg','img/WOMEN/35.jpg','img/WOMEN/36.jpg','img/WOMEN/37.jpg','img/WOMEN/38.jpg','img/WOMEN/39.jpg','img/WOMEN/40.jpg','img/WOMEN/41.jpg','img/WOMEN/42.jpg','img/WOMEN/43.jpg','img/WOMEN/44.jpg','img/WOMEN/45.jpg','img/WOMEN/46.jpg','img/WOMEN/47.jpg','img/WOMEN/48.jpg','img/WOMEN/49.jpg','img/WOMEN/50.jpg','img/WOMEN/51.jpg','img/WOMEN/52.jpg','img/WOMEN/53.jpg','img/WOMEN/54.jpg','img/WOMEN/55.jpg','img/WOMEN/56.jpg','img/WOMEN/57.jpg','img/WOMEN/58.jpg','img/WOMEN/59.jpg','img/WOMEN/60.jpg','img/WOMEN/61.jpg','img/WOMEN/62.jpg','img/WOMEN/63.jpg','img/WOMEN/64.jpg','img/WOMEN/65.jpg','img/WOMEN/66.jpg','img/WOMEN/67.jpg','img/WOMEN/68.jpg','img/WOMEN/69.jpg','img/WOMEN/70.jpg','img/WOMEN/71.jpg','img/WOMEN/72.jpg','img/WOMEN/73.jpg','img/WOMEN/74.jpg','img/WOMEN/75.jpg','img/WOMEN/76.jpg','img/WOMEN/77.jpg','img/WOMEN/78.jpg','img/WOMEN/79.jpg','img/WOMEN/80.jpg','img/WOMEN/81.jpg','img/WOMEN/82.jpg','img/WOMEN/83.jpg','img/WOMEN/84.jpg','img/WOMEN/85.jpg','img/WOMEN/86.jpg','img/WOMEN/87.jpg','img/WOMEN/88.jpg','img/WOMEN/89.jpg','img/WOMEN/90.jpg','img/WOMEN/91.jpg','img/WOMEN/92.jpg','img/WOMEN/93.jpg','img/WOMEN/94.jpg','img/WOMEN/95.jpg','img/WOMEN/96.jpg','img/WOMEN/97.jpg','img/WOMEN/98.jpg','img/WOMEN/99.jpg','img/WOMEN/100.jpg','img/WOMEN/101.jpg','img/WOMEN/102.jpg','img/WOMEN/103.jpg','img/WOMEN/104.jpg','img/WOMEN/105.jpg','img/WOMEN/106.jpg','img/WOMEN/107.jpg','img/WOMEN/108.jpg','img/WOMEN/109.jpg','img/WOMEN/110.jpg','img/WOMEN/111.jpg',  'img/WOMEN/112.jpg', 'img/WOMEN/113.jpg','img/WOMEN/114.jpg','img/WOMEN/115.jpg','img/WOMEN/116.jpg','img/WOMEN/117.jpg','img/WOMEN/118.jpg','img/WOMEN/119.jpg','img/WOMEN/110.jpg','img/WOMEN/111.jpg','img/WOMEN/112.jpg','img/WOMEN/113.jpg','img/WOMEN/114.jpg','img/WOMEN/115.jpg','img/WOMEN/116.jpg','img/WOMEN/117.jpg','img/WOMEN/118.jpg','img/WOMEN/119.jpg','img/WOMEN/120.jpg','img/WOMEN/121.jpg','img/WOMEN/122.jpg','img/WOMEN/123.jpg','img/WOMEN/124.jpg','img/WOMEN/125.jpg','img/WOMEN/126.jpg','img/WOMEN/127.jpg','img/WOMEN/128.jpg','img/WOMEN/129.jpg','img/WOMEN/130.jpg','img/WOMEN/131.jpg','img/WOMEN/132.jpg','img/WOMEN/133.jpg','img/WOMEN/134.jpg','img/WOMEN/135.jpg','img/WOMEN/136.jpg','img/WOMEN/137.jpg','img/WOMEN/138.jpg','img/WOMEN/139.jpg','img/WOMEN/140.jpg','img/WOMEN/141.jpg','img/WOMEN/142.jpg','img/WOMEN/143.jpg','img/WOMEN/144.jpg','img/WOMEN/145.jpg','img/WOMEN/146.jpg','img/WOMEN/147.jpg','img/WOMEN/148.jpg','img/WOMEN/149.jpg','img/WOMEN/150.jpg','img/WOMEN/151.jpg','img/WOMEN/152.jpg','img/WOMEN/153.jpg','img/WOMEN/154.jpg','img/WOMEN/155.jpg','img/WOMEN/156.jpg','img/WOMEN/157.jpg','img/WOMEN/158.jpg','img/WOMEN/159.jpg','img/WOMEN/160.jpg','img/WOMEN/161.jpg','img/WOMEN/162.jpg','img/WOMEN/163.jpg','img/WOMEN/164.jpg','img/WOMEN/165.jpg','img/WOMEN/166.jpg','img/WOMEN/167.jpg','img/WOMEN/168.jpg','img/WOMEN/169.jpg','img/WOMEN/170.jpg','img/WOMEN/171.jpg','img/WOMEN/172.jpg','img/WOMEN/173.jpg','img/WOMEN/174.jpg','img/WOMEN/175.jpg','img/WOMEN/176.jpg','img/WOMEN/177.jpg','img/WOMEN/178.jpg','img/WOMEN/179.jpg','img/WOMEN/180.jpg','img/WOMEN/181.jpg','img/WOMEN/182.jpg','img/WOMEN/183.jpg','img/WOMEN/184.jpg','img/WOMEN/185.jpg','img/WOMEN/186.jpg','img/WOMEN/187.jpg','img/WOMEN/188.jpg','img/WOMEN/189.jpg','img/WOMEN/190.jpg','img/WOMEN/191.jpg','img/WOMEN/192.jpg','img/WOMEN/193.jpg','img/WOMEN/194.jpg','img/WOMEN/195.jpg','img/WOMEN/196.jpg','img/WOMEN/197.jpg','img/WOMEN/198.jpg','img/WOMEN/199.jpg','img/WOMEN/200.jpg','img/WOMEN/201.jpg','img/WOMEN/202.jpg','img/WOMEN/203.jpg','img/WOMEN/204.jpg','img/WOMEN/205.jpg','img/WOMEN/206.jpg','img/WOMEN/207.jpg','img/WOMEN/208.jpg','img/WOMEN/209.jpg','img/WOMEN/210.jpg','img/WOMEN/211.jpg','img/WOMEN/112.jpg','img/WOMEN/213.jpg','img/WOMEN/214.jpg','img/WOMEN/215.jpg','img/WOMEN/216.jpg','img/WOMEN/217.jpg','img/WOMEN/218.jpg','img/WOMEN/219.jpg','img/WOMEN/220.jpg','img/WOMEN/221.jpg','img/WOMEN/222.jpg','img/WOMEN/223.jpg','img/WOMEN/224.jpg','img/WOMEN/225.jpg','img/WOMEN/226.jpg','img/WOMEN/227.jpg','img/WOMEN/228.jpg','img/WOMEN/229.jpg','img/WOMEN/230.jpg','img/WOMEN/231.jpg','img/WOMEN/232.jpg','img/WOMEN/233.jpg','img/WOMEN/234.jpg','img/WOMEN/235.jpg','img/WOMEN/236.jpg','img/WOMEN/237.jpg','img/WOMEN/238.jpg','img/WOMEN/239.jpg','img/WOMEN/240.jpg','img/WOMEN/241.jpg','img/WOMEN/242.jpg','img/WOMEN/243.jpg','img/WOMEN/244.jpg','img/WOMEN/245.jpg','img/WOMEN/246.jpg','img/WOMEN/247.jpg','img/WOMEN/248.jpg','img/WOMEN/249.jpg','img/WOMEN/250.jpg','img/WOMEN/251.jpg','img/WOMEN/252.jpg','img/WOMEN/253.jpg','img/WOMEN/254.jpg','img/WOMEN/255.jpg','img/WOMEN/256.jpg','img/WOMEN/257.jpg','img/WOMEN/258.jpg','img/WOMEN/259.jpg','img/WOMEN/260.jpg','img/WOMEN/261.jpg','img/WOMEN/262.jpg','img/WOMEN/263.jpg','img/WOMEN/264.jpg','img/WOMEN/265.jpg','img/WOMEN/266.jpg','img/WOMEN/267.jpg','img/WOMEN/268.jpg','img/WOMEN/269.jpg','img/WOMEN/270.jpg','img/WOMEN/271.jpg','img/WOMEN/272.jpg','img/WOMEN/273.jpg','img/WOMEN/274.jpg','img/WOMEN/275.jpg','img/WOMEN/276.jpg','img/WOMEN/277.jpg','img/WOMEN/278.jpg','img/WOMEN/279.jpg','img/WOMEN/280.jpg','img/WOMEN/281.jpg','img/WOMEN/282.jpg','img/WOMEN/283.jpg','img/WOMEN/284.jpg','img/WOMEN/285.jpg',],
+                    'large'         : ['images/large/2.jpg', 'img/WOMEN/2.jpg', 'img/WOMEN/3.jpg','img/WOMEN/4.jpg','img/WOMEN/5.jpg','img/WOMEN/6.jpg','img/WOMEN/7.jpg','img/WOMEN/8.jpg','img/WOMEN/9.jpg','img/WOMEN/10.jpg','img/WOMEN/11.jpg','img/WOMEN/12.jpg','img/WOMEN/13.jpg','img/WOMEN/14.jpg','img/WOMEN/15.jpg','img/WOMEN/16.jpg','img/WOMEN/17.jpg','img/WOMEN/18.jpg','img/WOMEN/19.jpg','img/WOMEN/20.jpg','img/WOMEN/21.jpg','img/WOMEN/22.jpg','img/WOMEN/23.jpg','img/WOMEN/24.jpg','img/WOMEN/25.jpg','img/WOMEN/26.jpg','img/WOMEN/27.jpg','img/WOMEN/28.jpg','img/WOMEN/29.jpg','img/WOMEN/30.jpg','img/WOMEN/31.jpg','img/WOMEN/32.jpg','img/WOMEN/33.jpg','img/WOMEN/34.jpg','img/WOMEN/35.jpg','img/WOMEN/36.jpg','img/WOMEN/37.jpg','img/WOMEN/38.jpg','img/WOMEN/39.jpg','img/WOMEN/40.jpg','img/WOMEN/41.jpg','img/WOMEN/42.jpg','img/WOMEN/43.jpg','img/WOMEN/44.jpg','img/WOMEN/45.jpg','img/WOMEN/46.jpg','img/WOMEN/47.jpg','img/WOMEN/48.jpg','img/WOMEN/49.jpg','img/WOMEN/50.jpg','img/WOMEN/51.jpg','img/WOMEN/52.jpg','img/WOMEN/53.jpg','img/WOMEN/54.jpg','img/WOMEN/55.jpg','img/WOMEN/56.jpg','img/WOMEN/57.jpg','img/WOMEN/58.jpg','img/WOMEN/59.jpg','img/WOMEN/60.jpg','img/WOMEN/61.jpg','img/WOMEN/62.jpg','img/WOMEN/63.jpg','img/WOMEN/64.jpg','img/WOMEN/65.jpg','img/WOMEN/66.jpg','img/WOMEN/67.jpg','img/WOMEN/68.jpg','img/WOMEN/69.jpg','img/WOMEN/70.jpg','img/WOMEN/71.jpg','img/WOMEN/72.jpg','img/WOMEN/73.jpg','img/WOMEN/74.jpg','img/WOMEN/75.jpg','img/WOMEN/76.jpg','img/WOMEN/77.jpg','img/WOMEN/78.jpg','img/WOMEN/79.jpg','img/WOMEN/80.jpg','img/WOMEN/81.jpg','img/WOMEN/82.jpg','img/WOMEN/83.jpg','img/WOMEN/84.jpg','img/WOMEN/85.jpg','img/WOMEN/86.jpg','img/WOMEN/87.jpg','img/WOMEN/88.jpg','img/WOMEN/89.jpg','img/WOMEN/90.jpg','img/WOMEN/91.jpg','img/WOMEN/92.jpg','img/WOMEN/93.jpg','img/WOMEN/94.jpg','img/WOMEN/95.jpg','img/WOMEN/96.jpg','img/WOMEN/97.jpg','img/WOMEN/98.jpg','img/WOMEN/99.jpg','img/WOMEN/100.jpg','img/WOMEN/101.jpg','img/WOMEN/102.jpg','img/WOMEN/103.jpg','img/WOMEN/104.jpg','img/WOMEN/105.jpg','img/WOMEN/106.jpg','img/WOMEN/107.jpg','img/WOMEN/108.jpg','img/WOMEN/109.jpg','img/WOMEN/110.jpg','img/WOMEN/111.jpg',  'img/WOMEN/112.jpg', 'img/WOMEN/113.jpg','img/WOMEN/114.jpg','img/WOMEN/115.jpg','img/WOMEN/116.jpg','img/WOMEN/117.jpg','img/WOMEN/118.jpg','img/WOMEN/119.jpg','img/WOMEN/110.jpg','img/WOMEN/111.jpg','img/WOMEN/112.jpg','img/WOMEN/113.jpg','img/WOMEN/114.jpg','img/WOMEN/115.jpg','img/WOMEN/116.jpg','img/WOMEN/117.jpg','img/WOMEN/118.jpg','img/WOMEN/119.jpg','img/WOMEN/120.jpg','img/WOMEN/121.jpg','img/WOMEN/122.jpg','img/WOMEN/123.jpg','img/WOMEN/124.jpg','img/WOMEN/125.jpg','img/WOMEN/126.jpg','img/WOMEN/127.jpg','img/WOMEN/128.jpg','img/WOMEN/129.jpg','img/WOMEN/130.jpg','img/WOMEN/131.jpg','img/WOMEN/132.jpg','img/WOMEN/133.jpg','img/WOMEN/134.jpg','img/WOMEN/135.jpg','img/WOMEN/136.jpg','img/WOMEN/137.jpg','img/WOMEN/138.jpg','img/WOMEN/139.jpg','img/WOMEN/140.jpg','img/WOMEN/141.jpg','img/WOMEN/142.jpg','img/WOMEN/143.jpg','img/WOMEN/144.jpg','img/WOMEN/145.jpg','img/WOMEN/146.jpg','img/WOMEN/147.jpg','img/WOMEN/148.jpg','img/WOMEN/149.jpg','img/WOMEN/150.jpg','img/WOMEN/151.jpg','img/WOMEN/152.jpg','img/WOMEN/153.jpg','img/WOMEN/154.jpg','img/WOMEN/155.jpg','img/WOMEN/156.jpg','img/WOMEN/157.jpg','img/WOMEN/158.jpg','img/WOMEN/159.jpg','img/WOMEN/160.jpg','img/WOMEN/161.jpg','img/WOMEN/162.jpg','img/WOMEN/163.jpg','img/WOMEN/164.jpg','img/WOMEN/165.jpg','img/WOMEN/166.jpg','img/WOMEN/167.jpg','img/WOMEN/168.jpg','img/WOMEN/169.jpg','img/WOMEN/170.jpg','img/WOMEN/171.jpg','img/WOMEN/172.jpg','img/WOMEN/173.jpg','img/WOMEN/174.jpg','img/WOMEN/175.jpg','img/WOMEN/176.jpg','img/WOMEN/177.jpg','img/WOMEN/178.jpg','img/WOMEN/179.jpg','img/WOMEN/180.jpg','img/WOMEN/181.jpg','img/WOMEN/182.jpg','img/WOMEN/183.jpg','img/WOMEN/184.jpg','img/WOMEN/185.jpg','img/WOMEN/186.jpg','img/WOMEN/187.jpg','img/WOMEN/188.jpg','img/WOMEN/189.jpg','img/WOMEN/190.jpg','img/WOMEN/191.jpg','img/WOMEN/192.jpg','img/WOMEN/193.jpg','img/WOMEN/194.jpg','img/WOMEN/195.jpg','img/WOMEN/196.jpg','img/WOMEN/197.jpg','img/WOMEN/198.jpg','img/WOMEN/199.jpg','img/WOMEN/200.jpg','img/WOMEN/201.jpg','img/WOMEN/202.jpg','img/WOMEN/203.jpg','img/WOMEN/204.jpg','img/WOMEN/205.jpg','img/WOMEN/206.jpg','img/WOMEN/207.jpg','img/WOMEN/208.jpg','img/WOMEN/209.jpg','img/WOMEN/210.jpg','img/WOMEN/211.jpg','img/WOMEN/112.jpg','img/WOMEN/213.jpg','img/WOMEN/214.jpg','img/WOMEN/215.jpg','img/WOMEN/216.jpg','img/WOMEN/217.jpg','img/WOMEN/218.jpg','img/WOMEN/219.jpg','img/WOMEN/220.jpg','img/WOMEN/221.jpg','img/WOMEN/222.jpg','img/WOMEN/223.jpg','img/WOMEN/224.jpg','img/WOMEN/225.jpg','img/WOMEN/226.jpg','img/WOMEN/227.jpg','img/WOMEN/228.jpg','img/WOMEN/229.jpg','img/WOMEN/230.jpg','img/WOMEN/231.jpg','img/WOMEN/232.jpg','img/WOMEN/233.jpg','img/WOMEN/234.jpg','img/WOMEN/235.jpg','img/WOMEN/236.jpg','img/WOMEN/237.jpg','img/WOMEN/238.jpg','img/WOMEN/239.jpg','img/WOMEN/240.jpg','img/WOMEN/241.jpg','img/WOMEN/242.jpg','img/WOMEN/243.jpg','img/WOMEN/244.jpg','img/WOMEN/245.jpg','img/WOMEN/246.jpg','img/WOMEN/247.jpg','img/WOMEN/248.jpg','img/WOMEN/249.jpg','img/WOMEN/250.jpg','img/WOMEN/251.jpg','img/WOMEN/252.jpg','img/WOMEN/253.jpg','img/WOMEN/254.jpg','img/WOMEN/255.jpg','img/WOMEN/256.jpg','img/WOMEN/257.jpg','img/WOMEN/258.jpg','img/WOMEN/259.jpg','img/WOMEN/260.jpg','img/WOMEN/261.jpg','img/WOMEN/262.jpg','img/WOMEN/263.jpg','img/WOMEN/264.jpg','img/WOMEN/265.jpg','img/WOMEN/266.jpg','img/WOMEN/267.jpg','img/WOMEN/268.jpg','img/WOMEN/269.jpg','img/WOMEN/270.jpg','img/WOMEN/271.jpg','img/WOMEN/272.jpg','img/WOMEN/273.jpg','img/WOMEN/274.jpg','img/WOMEN/275.jpg','img/WOMEN/276.jpg','img/WOMEN/277.jpg','img/WOMEN/278.jpg','img/WOMEN/279.jpg','img/WOMEN/280.jpg','img/WOMEN/281.jpg','img/WOMEN/282.jpg','img/WOMEN/283.jpg','img/WOMEN/284.jpg','img/WOMEN/285.jpg',],
+                    'img_title'     : ['women '],
+                    'button_list'   :
+                    [
+                        
+                    ],
+                    'tags'          : ['']
+                },
+           
+
+            ]
+        });
+    });
+</script>
+    </section>
+  <!-- End section -->
+		
+			<!-- Srart History
+		=========================================== -->	
+    
+        <section id="history" style="background-color:#180A18" class="bg-one" >
+			<div class="container">
+				<div class="row">
+                    <br>
+                                <br>
+                                <br>
+                    <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2><img src="img/3.png" alt="women">  History <span class="color">of </span>Brands</h2>
+						<div class="border"></div>
+					</div>
+                    <style>
+
+
+td, th {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+    padding: 14px;
+}
+
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>
+        <a href="http://www.gaudi.it/" target="_blank"><img src="img/gaudi.png" alt="gaudi logo" ></a>
+        <br>
+        <br>
+        <br>
+<p>Gaud Trade is a very young factory that in less than fifteen years has reached a top market position with a very casual and young fashion.
+
+Their jeans, T-Shirt and sweatshirts are on common language spoken worldwide.
+
+Their garments are an all-purpose, comfortable fashion perfectly suitable for every occasion from disco and leisure time to formal meeting and office time.
+
+At present Gaud Trade is an established company whose main advantages are fashion, research and style. The company key to successful business has been the capture of elements of continuity within the indefinite and ever changing teenagers mood and the making of best-sellers out of them for a weel planned insdustrial production.</p></th>
+    <th>
+        <a href="http://www.dennyrose.it/" target="_blank"><img src="img/dennyrose.png" alt="denny rose logo"></a>
+        <br>
+        <br>
+<p>Denny Rose is an Italian fashion house founded in Carpi, near Modena.
+
+The brand is dedicated only for young girls. The style is very personal and Denny Rose offers modern and sexy fashion at an affordable price.
+
+The Denny Rose brand is currently dedicated in three lines: Denny Rose, the main line, Denny Rose Lady, the more elegant and sophisticated line, and Denny Rose Young Girl, which is for children and teenagers.
+
+Furthermore Denny Rose also launched a line of knitwear, which is much appreciated. The knitwear is made of lambswool or angora.</p></th>
+    
+  </tr>
+</table>
+                    
+                    <br>
+<br>
+<br>
+
+                    
+                </div>
+            </div>
+</section>
+ 
+
+
+
+		
+		<!-- Srart Contact Us
+		=========================================== -->		
+		<section id="contact-us">
+			<div class="container">
+				<div class="row">
+					
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Contact <span class="color">Us  <img src="img/7.png" alt="women"></span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+					<!-- Contact Details -->
+					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+						<h3>Contact Details</h3>
+                        <br>
+						<div class="contact-details">
+							<div class="con-info clearfix">
+								<i class="fa fa-home fa-lg"></i>
+								<span>Address:  "Pirin" Str. 34, Bansko, Bulgaria</span>
+							</div>
+							
+							<div class="con-info clearfix">
+								<i class="fa fa-phone fa-lg"></i>
+								<span>Phone:  +359 878 318 555</span>
+							</div>
+							
+							<div class="con-info clearfix">
+								<i class="fa fa-envelope fa-lg"></i>
+								<span>Email:  dimovidis@abv.bg</span>
+							</div>
+			              
+                            <div class="con-info clearfix">
+								<i class="fa fa-facebook fa-lg"></i>
+								<span>Facebook: <a href="https://www.facebook.com/ButikCheriBansko/" style="text-decoration: underline">  ButikCheriBansko</a></span>
+							</div>
+                        </div>
+					</div>
+					<!-- / End Contact Details -->
+						
+					<!-- Contact Form -->
+					<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+						<form id="contact-form" method="post" action="mailto:dimovidis@abv.bg" role="form" enctype="text/plain">
+						
+							<div class="form-group">
+								<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+							</div>
+							
+							<div class="form-group">
+								<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+							</div>
+							
+							<div class="form-group">
+								<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+							</div>
+							
+							<div class="form-group">
+								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+							</div>
+							
+							<div id="mail-success" class="success">
+								Thank you. :)
+							</div>
+							
+							<div id="mail-fail" class="error">
+								Sorry, don't know what happened. Try later :(
+							</div>
+							
+							<div id="cf-submit">
+								<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+							</div>						
+							
+						</form>
+					</div>
+					<!-- ./End Contact Form -->
+				
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+			
+			<!-- Google Map -->
+    <!-- Height=450px; Width=600px -->
+            <div class="google-maps">
+			<div class="title text-center wow fadeIn">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.7257778106205!2d23.482777015052093!3d41.83420267613984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14abaea20b166cf5%3A0x3968798f4a30a8a0!2z0YPQuy4g4oCe0J_QuNGA0LjQveKAnCAzNCwgMjc3MCDQkdCw0L3RgdC60L4!5e0!3m2!1sbg!2sbg!4v1482539743107" width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>	
+            </div>
+            
+			<!-- /Google Map -->
+			
+		</section> <!-- end section -->
+		
+		<!-- end Contact Area
+		========================================== -->
+		
+		<footer id="footer" class="bot">
+			<div class="container">
+			    <div class="row wow fadeInUp" data-wow-duration="500ms">
+					<div class="col-lg-12">
+						
+						<!-- Footer Social Links -->
+						<div class="social-icon">
+							<ul>
+								<li><a href="https://www.facebook.com/Butik-Ch%D0%B5ri-294388800958733/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+							</ul>
+						</div>
+						<!--/. End Footer Social Links -->
+
+						<!-- copyright -->
+						<div class="copyright text-center">
+							<a href="index.html">
+								<img src="img/cheri1.png" alt="Butik Cheri"  /> 
+							</a6
+							<br />
+							
+							<p>Design And Developed by <a href="http://www.amddevelopers.co.nf" target="_blank"> AMD Developers</a>. Copyright &copy; 2016. All Rights Reserved.</p>
+						</div>
+						<!-- /copyright -->
+						
+					</div> <!-- end col lg 12 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+		
+		<!-- Back to Top
+		============================== -->
+		<a href="javascript:;" id="scrollUp">
+			<i class="fa fa-angle-up fa-2x"></i>
+		</a>
+		
+		<!-- end Footer Area
+		========================================== -->
+		
+		<!-- 
+		Essential Scripts
+		=====================================-->
+		<script>
+            /*AMD.Security*/    
+    <!--
+     var message="Created by AMD Developers!!!";
+     function clickIE4(){
+      if (event.button==2){
+       alert(message);
+      return false;}}
+     function clickNS4(e){
+      if (document.layers||document.getElementById&&!document.all){
+      if (e.which==2||e.which==3){
+       alert(message);
+     return false;}}}
+     if (document.layers){
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown=clickNS4;}
+      else if (document.all&&!document.getElementById){
+      document.onmousedown=clickIE4;}
+      document.oncontextmenu=new Function("alert(message);return false")
+    // --> 
+/*End AMD.Security*/
+             </script>
+		<!-- Main jQuery -->
+		
+		<!-- Bootstrap 3.1 -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Slitslider -->
+		<script src="js/jquery.slitslider.js"></script>
+		<script src="js/jquery.ba-cond.min.js"></script>
+		<!-- Parallax -->
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Portfolio Filtering -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- Custom Scrollbar -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- Jappear js -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Pie Chart -->
+		<script src="js/easyPieChart.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing-1.3.pack.js"></script>
+		<!-- tweetie.min -->
+		<script src="js/tweetie.min.js"></script>
+		<!-- Google Map API -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Highlight menu item -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Sticky Nav -->
+		<script src="js/jquery.sticky.js"></script>
+		<!-- Number Counter Script -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- wow.min Script -->
+		<script src="js/wow.min.js"></script>
+		<!-- For video responsive -->
+		<script src="js/jquery.fitvids.js"></script>
+		<!-- Grid js -->
+		<script src="js/grid.js"></script>
+		<!-- Custom js -->
+		<script src="js/custom.js"></script>
+
+    </body>
+</html>
