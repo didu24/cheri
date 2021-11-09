@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Бутик Cheri в Банско предлага италиански марки Gaudi и Denny Rose">
+        <meta name="keywords" content="Бутик, Бутик Cheri, бутик, бутик cheri, бутик в Банско, бутик cheri в Банско, Бутик в Банско, Cheri, cheri, италианска мода, мода, Gaudi, Denny Rose "
+        
+        <meta name="author" content="AMD Developers">
+		
+        <title>Бутик Cheri</title>
+		
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+		
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Owl Carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Grid Component css -->
+        <link rel="stylesheet" href="css/component.css">
+		<!-- Slit Slider css -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Media Queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+
+		<!--
+		Google Font
+		=========================== -->                    
+		
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- Modernizer Script for old Browsers -->		
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-54152927-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+	
+    </head>
+	
+    <body id="body">
+	   <!-- 
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h1 id="logo">
+							<img src="img/cheri1.png" alt="Butik Cheri" />
+						</h1>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Начало</a></li>
+                        <li><a href="#about">За нас</a></li>
+                        <li><a href="#showcase">Порфолио</a></li>
+                        <li><a href="#history">История</a></li>
+                        <li><a href="#contact-us">Контакти</a></li>
+                        <li><a href="bgindex.html"><img src="img/bulgarianlanguageflag.jpg" title="Български език" alt="BG flag" /></a></li>
+                        <li><a href="index.html"><img src="img/englishlanguageflag.jpg" title="English language" alt="ENG flag" /></a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+        
+        <!--
+        Welcome Slider
+        ==================================== -->
+		<section id="home">	    
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img/slides/1.jpg" style="width:100%" alt="butik cheri">
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slides/21.jpg" style="width:100%" alt="buttik cheri">
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slides/3.jpg" style="width:100%" alt="buttik cheri">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+    </div>
+    </div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);
+}
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		</section>
+		<!--/#home section-->
+		
+        
+		
+		<!--
+		Start About Section
+		==================================== -->
+		<section id="about" class="bg-one">
+			<div class="container">
+				<div class="row">
+				
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2><img src="img/6.png" alt="women">За <span class="color">Нас</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+						<div class="wrap-about">							
+							<div class="icon-box">
+								<i class="fa fa-shopping-bag fa-4x"></i>
+							</div>					
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3 class="ddd">Нашия Бутик</h3>								
+                                <p>Ново открит бутик в гр.Банско предлага италианските марки <a href="http://www.gaudi.it/" target="_blank">GAUDI</a> и <a href="http://www.dennyrose.it/" target="_blank">DENNY ROSE</a>. За нас ще бъде удоволстие да ви поглезим. Добре дошли!</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+						<div class="wrap-about">
+							<div class="icon-box">
+								<i class="fa fa-female fa-4x"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3>Дамска мода</h3>
+                                <p>Ние предлагаме дамска мода <a href="http://www.gaudi.it/" target="_blank">GAUDI</a> и <a href="http://www.dennyrose.it/" target="_blank">DENNY ROSE</a>. Рокли, панталони, чанти, блузи, якета, съка.</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+					<!-- About item -->					
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="wrap-about kill-margin-bottom">
+							<div class="icon-box">
+								<i class="fa fa-male fa-4x"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="about-content text-center">
+								<h3>Мъжка мода</h3>
+								<p>Предлагаме мъжки дрехи, якета, дънки и обувки <a href="http://www.gaudi.it/" target="_blank">GAUDI</a>.</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+		
+		
+		<!-- Start Portfolio Section
+		=========================================== -->
+		
+		<section id="showcase">
+			<style>
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: transparent;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: transparent;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0;
+    border-top: none;
+    text-align: center;
+}
+ .picture, tablinks {
+     text-align: center;
+                }
+                
+</style>
+
+<table align="center">
+    <div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>Портфолио  <img src="img/2.png" alt="women"></span></h2>
+						<div class="border"></div>
+					</div>
+    <th>
+<ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Man')"><img src="img/man/bg0.jpg" alt="man"></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Women')"><img src="img/women/bg0.jpg" alt="women"></a></li>
+</ul>
+    </th>
+            </table>
+<br>
+<div id="Man" class="tabcontent">
+
+<div class="w3-row">
+  
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man1');">
+    <img src="img/man/11.jpg" alt="man" >
+  </a>
+
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man2');">
+      <img src="img/man/22.jpg" alt="man" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man3');">
+      <img src="img/man/33.jpg" alt="man" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man4');">
+      <img src="img/man/44.jpg" alt="man" >
+    </a>
+    
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man5');">
+    <img src="img/man/55.jpg" alt="man" >
+  </a>
+
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man6');">
+      <img src="img/man/66.jpg" alt="man" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man7');">
+      <img src="img/man/77.jpg" alt="man" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man8');">
+      <img src="img/man/88.jpg" alt="man" >
+    </a>
+    
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man9');">
+      <img src="img/man/99.jpg" alt="man" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('man10');">
+      <img src="img/man/1010.jpg" alt="man" >
+    </a>
+    
+  </div>
+</div>
+            <div id="Women" class="tabcontent">
+
+<div class="w3-row">
+  
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women1');">
+    <img src="img/women/11.jpg" alt="women" >
+  </a>
+
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women2');">
+      <img src="img/women/22.jpg" alt="women" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women3');">
+      <img src="img/women/33.jpg" alt="women" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women4');">
+      <img src="img/women/44.jpg" alt="women" >
+    </a>
+    
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women5');">
+    <img src="img/women/55.jpg" alt="women" >
+  </a>
+
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women6');">
+      <img src="img/women/66.jpg" alt="women" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women7');">
+      <img src="img/women/77.jpg" alt="women" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women8');">
+      <img src="img/women/88.jpg" alt="women" >
+    </a>
+    
+     <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women9');">
+      <img src="img/women/99.jpg" alt="women" >
+    </a>
+    
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('women10');">
+      <img src="img/women/1010.jpg" alt="women" >
+    </a>
+    
+  </div>
+</div>
+            
+    
+<br>
+<div id="man1" class="picture w3-display-container" style="display:none">
+  <img src="img/man/111.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man2" class="picture w3-display-container" style="display:none">
+  <img src="img/man/222.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man3" class="picture w3-display-container" style="display:none">
+  <img src="img/man/333.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man4" class="picture w3-display-container" style="display:none">
+  <img src="img/man/444.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+            
+<div id="man5" class="picture w3-display-container" style="display:none">
+  <img src="img/man/555.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man6" class="picture w3-display-container" style="display:none">
+  <img src="img/man/666.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man7" class="picture w3-display-container" style="display:none">
+  <img src="img/man/777.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man8" class="picture w3-display-container" style="display:none">
+  <img src="img/man/888.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>  
+
+<div id="man9" class="picture w3-display-container" style="display:none">
+  <img src="img/man/999.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="man10" class="picture w3-display-container" style="display:none">
+  <img src="img/man/101010.jpg" alt="man" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>
+</div>
+
+<br>
+        <br>
+
+
+    
+<br>
+<div id="women1" class="picture w3-display-container" style="display:none">
+  <img src="img/women/111.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women2" class="picture w3-display-container" style="display:none">
+  <img src="img/women/222.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women3" class="picture w3-display-container" style="display:none">
+  <img src="img/women/333.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women4" class="picture w3-display-container" style="display:none">
+  <img src="img/women/444.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+        
+        <div id="women5" class="picture w3-display-container" style="display:none">
+  <img src="img/women/555.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women6" class="picture w3-display-container" style="display:none">
+  <img src="img/women/666.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women7" class="picture w3-display-container" style="display:none">
+  <img src="img/women/777.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women8" class="picture w3-display-container" style="display:none">
+  <img src="img/women/888.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+        
+        <div id="women9" class="picture w3-display-container" style="display:none">
+  <img src="img/women/999.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<div id="women10" class="picture w3-display-container" style="display:none">
+  <img src="img/women/101010.jpg" alt="women" >
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-closebtn w3-padding-large w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white"></div>
+</div>
+
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>
+</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+			
+		</section>   <!-- End section -->
+		
+			<!-- Srart History
+		=========================================== -->	
+        <section id="history" style="background-color:#180A18" class="bg-one">
+			<div class="container">
+				<div class="row">
+                    <br>
+                                <br>
+                                <br>
+                    <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2><img src="img/3.png" alt="women"> История <span class="color">на </span>Марките</h2>
+						<div class="border"></div>
+					</div>
+                    <style>
+
+
+td, th {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+    padding: 14px;
+}
+
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>
+        <a href="http://www.gaudi.it/" target="_blank"><img src="img/gaudi.png" alt="gaudi logo" ></a>
+        <br>
+        <br>
+        <br>
+<p>
+GAUDI  е много млада фабрика и за по-малко от петнадесет години е достигналa горната позиция на пазара .
+
+За техните дънки, тениски и пуловери  се говори по целия свят.
+
+Дрехите им са универсални, удобни, напълно подходящи за всеки повод от дискотека и свободно време до официална среща и офис време.
+
+В момента просто GAUDI  е утвърдена компания, чиято основни предимства са модата, изследванията и стилът. Ключът на компанията за успешен бизнес е залавянето на елементи на приемственост в настроение неопределени и непрекъснато променящите се тийнейджъри и правенето на бестселъри от тях за планирано индустриално производство.</p></th>
+    <th>
+        <a href="http://www.dennyrose.it/" target="_blank"><img src="img/dennyrose.png" alt="denny rose logo"></a>
+        <br>
+        <br>
+<p>Denny Rose е италианска модна къща, основана в Карпи, близо до Модена.
+
+Марката е посветена само за млади момичета. Стилът е много личен и Denny Rose предлага секси мода на достъпна цена.
+
+Марката Denny Rose в момента е посветен в три линии: Denny Rose, основната линия, Denny Rose Lady,  по-елегантена и изискана линия, и Denny Rose Young Girl, който е за деца и тийнейджъри.</p></th>
+    
+  </tr>
+</table>
+                    
+                    <br>
+<br>
+<br>
+
+                    
+                </div>
+            </div>
+</section>
+ 
+
+
+
+		
+		<!-- Srart Contact Us
+		=========================================== -->		
+		<section id="contact-us">
+			<div class="container">
+				<div class="row">
+					
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Контакти <img src="img/7.png" alt="women"> <span class="color"></span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+					<!-- Contact Details -->
+					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+						<h3>Детайли</h3>
+                        <br>
+						<div class="contact-details">
+							<div class="con-info clearfix">
+								<i class="fa fa-home fa-lg"></i>
+								<span>Адрес:  ул. Пирин 34, Банско, България</span>
+							</div>
+							
+							<div class="con-info clearfix">
+								<i class="fa fa-phone fa-lg"></i>
+								<span>Телефон:  +359 878 318 555</span>
+							</div>
+							
+							<div class="con-info clearfix">
+								<i class="fa fa-envelope fa-lg"></i>
+								<span>Имейл:  dimovidis@abv.bg</span>
+							</div>
+                            
+                             <div class="con-info clearfix">
+								<i class="fa fa-facebook fa-lg"></i>
+								<span>Facebook: <a href="https://www.facebook.com/ButikCheriBansko/" style="text-decoration: underline">  ButikCheriBansko</a></span>
+							</div>
+						</div>
+					</div>
+					<!-- / End Contact Details -->
+						
+					<!-- Contact Form -->
+					<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+						<form id="contact-form" method="post" action="mailto:dimovidis@abv.bg" role="form" enctype="text/plain">
+						
+							<div class="form-group">
+								<input type="text" placeholder="Име" class="form-control" name="name" id="name">
+							</div>
+							
+							<div class="form-group">
+								<input type="email" placeholder="Имейл" class="form-control" name="email" id="email">
+							</div>
+							
+							<div class="form-group">
+								<input type="text" placeholder="Заглавие" class="form-control" name="subject" id="subject">
+							</div>
+							
+							<div class="form-group">
+								<textarea rows="6" placeholder="Запитване" class="form-control" name="message" id="message"></textarea>	
+							</div>
+							
+							<div id="mail-success" class="success">
+								Благодарим ви. :)
+							</div>
+							
+							<div id="mail-fail" class="error">
+								Извинето, незнаем какво стана. Опитайте по късно :(
+							</div>
+							
+							<div id="cf-submit">
+								<input type="submit" id="contact-submit" class="btn btn-transparent" value="Изпрати">
+							</div>						
+							
+						</form>
+					</div>
+					<!-- ./End Contact Form -->
+				
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+			
+			<!-- Google Map -->
+    <!-- Height=450px; Width=600px -->
+            <div class="google-maps">
+			<div class="title text-center wow fadeIn">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.7257778106205!2d23.482777015052083!3d41.83420267613984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14abaea20b166cf5%3A0x3968798f4a30a8a0!2z0YPQuy4g4oCe0J_QuNGA0LjQveKAnCAzNCwgMjc3MCDQkdCw0L3RgdC60L4!5e0!3m2!1sbg!2sbg!4v1484061123577" width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>	
+            </div>
+            
+			<!-- /Google Map -->
+			
+		</section> <!-- end section -->
+		
+		<!-- end Contact Area
+		========================================== -->
+		
+		<footer id="footer" class="bot">
+			<div class="container">
+			    <div class="row wow fadeInUp" data-wow-duration="500ms">
+					<div class="col-lg-12">
+						
+						<!-- Footer Social Links -->
+						<div class="social-icon">
+							<ul>
+								<li><a href="https://www.facebook.com/Butik-Ch%D0%B5ri-294388800958733/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+							</ul>
+						</div>
+						<!--/. End Footer Social Links -->
+
+						<!-- copyright -->
+						<div class="copyright text-center">
+							<a href="index.html">
+								<img src="img/cheri1.png" alt="Butik Cheri" /> 
+							</a6
+							<br />
+							
+							<p>Изработено от <a href="http://www.amddevelopers.co.nf" target="_blank"> AMD Developers</a>. Авторско право &copy; 2016. Всички права запазени.</p>
+						</div>
+						<!-- /copyright -->
+						
+					</div> <!-- end col lg 12 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+		
+		<!-- Back to Top
+		============================== -->
+		<a href="javascript:;" id="scrollUp">
+			<i class="fa fa-angle-up fa-2x"></i>
+		</a>
+		
+		<!-- end Footer Area
+		========================================== -->
+		
+		<!-- 
+		Essential Scripts
+		=====================================-->
+		<script>
+            /*AMD.Security*/    
+    <!--
+     var message="Създадено от AMD Developers!!!";
+     function clickIE4(){
+      if (event.button==2){
+       alert(message);
+      return false;}}
+     function clickNS4(e){
+      if (document.layers||document.getElementById&&!document.all){
+      if (e.which==2||e.which==3){
+       alert(message);
+     return false;}}}
+     if (document.layers){
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown=clickNS4;}
+      else if (document.all&&!document.getElementById){
+      document.onmousedown=clickIE4;}
+      document.oncontextmenu=new Function("alert(message);return false")
+    // --> 
+/*End AMD.Security*/
+            </script>
+		<!-- Main jQuery -->
+		<script src="js/jquery-1.12.2.min.js"></script>
+		<!-- Bootstrap 3.1 -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Slitslider -->
+		<script src="js/jquery.slitslider.js"></script>
+		<script src="js/jquery.ba-cond.min.js"></script>
+		<!-- Parallax -->
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Portfolio Filtering -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- Custom Scrollbar -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- Jappear js -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Pie Chart -->
+		<script src="js/easyPieChart.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing-1.3.pack.js"></script>
+		<!-- tweetie.min -->
+		<script src="js/tweetie.min.js"></script>
+		<!-- Google Map API -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Highlight menu item -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Sticky Nav -->
+		<script src="js/jquery.sticky.js"></script>
+		<!-- Number Counter Script -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- wow.min Script -->
+		<script src="js/wow.min.js"></script>
+		<!-- For video responsive -->
+		<script src="js/jquery.fitvids.js"></script>
+		<!-- Grid js -->
+		<script src="js/grid.js"></script>
+		<!-- Custom js -->
+		<script src="js/custom.js"></script>
+
+    </body>
+</html>
